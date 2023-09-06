@@ -1,0 +1,77 @@
+.search-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.search-container input {
+  width: 200px;
+  padding: 12px 20px;
+  margin: 0 10px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+}
+
+  .books-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .book-item {
+    width: calc(90% / 4);
+    text-align: center;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    background-color: #f4f4f4;
+  }
+  .book-item img {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+  }
+  .input_holder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.input_holder input {
+    width: 70%;
+    padding: 12px 20px;
+    margin-right: 10px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+}
+
+.input_holder button {
+    width: 20%;
+    background-color:black;
+    color: white;
+    padding: 10px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.input_holder button:hover {
+    background-color: #45a049;
+    padding: 10px 10px;
+}
+.icon {
+  width: 30px;
+  height: 30px;
+  font-size: 50px;
+}
+.icon-main{
+  margin-left:auto;
+  margin-right: auto;
+}

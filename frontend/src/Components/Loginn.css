@@ -1,0 +1,11 @@
+#b-img {
+    background: url("https://th.bing.com/th/id/OIP.4R7zEITvBCVyQRGWadMlOQHaEK?w=333&h=187&c=7&r=0&o=5&dpr=1.3&pid=1.7");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+.login-box {
+    background-color:burlywood;
+    border: 3px;
+    border-color:red;
+}
